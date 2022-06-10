@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="commons-logging-1.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/alipay-sdk-java20170324180803.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/alipay-sdk-java20170324180803-source.jar!/com/alipay/api" />
+    </SOURCES>
+  </library>
+</component>

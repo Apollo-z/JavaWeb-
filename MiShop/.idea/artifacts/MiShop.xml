@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MiShop">
+    <output-path>$PROJECT_DIR$/../../../../apache-tomcat-8.5.31/webapps/MiShop</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="MiShop/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MiShop" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

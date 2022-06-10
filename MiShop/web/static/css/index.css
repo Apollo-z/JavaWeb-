@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#bs-example-navbar-collapse-1 .navbar-nav a{
+    height: 60px;
+    line-height: 35px;
+    padding-right: 20px;
+}
+.navbar-header a {
+    height: 60px;
+    line-height: 35px;
+}
+.navbar-header .navbar-brand img{
+
+
+}
+#bs-example-navbar-collapse-1 .navbar-nav li:active,
+#bs-example-navbar-collapse-1 .navbar-nav li a:hover
+{
+    border-bottom:2px solid #68d3ff;
+}

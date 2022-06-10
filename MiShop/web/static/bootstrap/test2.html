@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript">
+        /**
+         * 需要将图片的名称和key的中括号中的字符对应。
+         * @param key{string} 需要替换的内容
+         * @param value{string} 代表的表情名称
+         * @param baseDir{string} 基本的图片路径
+         * @param prefix{string} 后缀名称
+         * @returns {string} 完整的img标签
+         */
+        function test(key,value,baseDir,prefix){
+            if(key.indexOf('[')===0 && key.indexOf(']')===key.length-1){
+                var dir =  baseDir+"/"+ (key.substring(1,key.length-1))+"."+prefix;
+                return "<img src ='"+dir+"' alt='"+value+"'/>";
+            }
+        }
+        var baseDir = "./";
+        var key = "[Penguins]";
+        var value ="萌企鹅一家";
+        var prefix ="jpg";
+        var dd = test(key,value,baseDir,prefix);
+        window.onload = function(){
+            document.body.innerHTML = dd;
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>

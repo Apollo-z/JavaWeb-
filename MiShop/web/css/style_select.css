@@ -1,0 +1,66 @@
+@charset "utf-8";
+body {
+	background-color: #FCFCFC;
+}
+
+dl,
+dd {
+	margin: 0;
+}
+
+#box {
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: 0 0 10px rgba(73,66,66,.1);
+	border: 1px solid #E5E5E5;
+}
+
+#box dl {
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px dashed #dadada;
+	margin: 0 20px;
+}
+
+#box dt {
+	float: left;
+	color: #8a8a8a;
+}
+
+#box dd {
+	float: left;
+	color: #252525;
+	margin: 0 10px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+#box dd.active {
+	color: #c4284d;
+	font-weight: bold;
+}
+
+#box dl.select {
+	background: #efefef;
+	margin: 0;
+	padding: 0 20px;
+}
+
+#box dl.select dd{
+	border: 1px solid #c4284d;
+	height: 25px;
+	line-height: 25px;
+	margin-top: 13px;
+	padding: 0 2px 0 10px;
+	border-radius: 3px;background-color: #fff;
+}
+#box dl.select dd span{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	text-align: center;
+	line-height: 20px;
+	background: #c4284d;
+	color: #fff;
+	margin-left: 10px;
+	cursor: pointer;border-radius: 5px;
+}
